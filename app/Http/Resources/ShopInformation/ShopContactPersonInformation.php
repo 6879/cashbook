@@ -1,0 +1,37 @@
+<?php
+
+namespace App\Http\Resources\ShopInformation;
+
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class ShopContactPersonInformation extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return array
+     */
+    public function toArray($request)
+    {
+        return [
+            'shopCPInfoId' => $this->shopCPInfoId,
+            'shopId' => $this->shopId,
+
+            'CPName' => $this->CPName,
+            'CPMobileNo' => $this->CPMobileNo,
+            'CPEmail' => $this->CPEmail,
+            'CPAddress' => $this->CPAddress,
+            'CPPhoneNo' => $this->CPPhoneNo,
+            
+            'status' => $this->status,
+            'deleteStatus' => $this->deleteStatus,
+            'createBy' => $this->createBy,
+            'updateBy' => $this->updateBy,
+            'deleteBy' => $this->deleteBy,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
+            'delete_at' => $this->delete_at,
+            ];
+    }
+}

@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateAccountGroupsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('account_groups', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('groupName','100');
+            $table->integer('status');
+            $table->integer('position');
+            $table->integer('createBy');
+            $table->integer('updateBy')->nullable();
+            $table->integer('deleteBy')->nullable();
+            $table->timestamps();
+            $table->dateTime('deleted_at')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('account_groups');
+    }
+}

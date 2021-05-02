@@ -1,0 +1,600 @@
+span .menuActive{
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: -18px;
+    letter-spacing: 1px;
+}
+span .subMenuActive{
+  padding: 4px;
+  border-radius: 3px;
+  margin-left: -18px;
+  letter-spacing: 1px;
+}
+
+.wh-100-100{
+  width: 100px;
+  height: 100px;
+}
+
+.phpdebugbar-restore-btn{
+  display:none;
+}
+
+.phpdebugbar-closed{
+  display:none;
+}
+
+.phpdebugbar{
+  display:none;
+}
+
+.phpdebugbar-minimized {
+  display:none;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.text-10{
+  font-size: 10px;
+}
+.card-header{
+  cursor: pointer;
+}
+.card-header .title {
+  font-size: 17px;
+  color: #000;
+}
+.card{
+  border: 1px solid #ddd;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+.fa-angle-down{
+  position: absolute;
+  right: 20px;
+}
+.menuCollapsed{
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-left: 40px;
+  height: 40px;
+}
+#width  td {
+    width: 105px;
+    border-top: none;
+    cursor: pointer;
+}
+ h6.title.ml{
+   padding-left: 30px;
+ }
+.permission-card-body {
+  padding: 3px 0px;
+}
+button.btn.btn-hover-shine.btn-danger {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+a.btn.btn-hover-shine.btn-primary {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+button.mr-2.btn.btn-pill.btn-hover-shine.btn-primary {
+    font-size: 13px;
+}
+button.btn.btn-hover-shine.btn-success {
+  font-size: 13px;
+}
+i.fa.fa-edit {
+      margin-right: 5px;
+}
+i.fa.fa-trash {
+    margin-right: 5px;
+}
+.text-sm-right{
+   padding-top:30px;
+ }
+.form-check-input{
+  margin-left:0px;
+}
+label.form-check-label{
+  margin-left: 20px;
+}
+::placeholder{
+  font-size:14px;
+}
+select.form-control {
+  font-size: 14px;
+}
+span.card_footer {
+    padding: 10px 0px 0px 10px;
+}
+.shopemployee-entry {
+    padding: 70px 0px;
+}
+.shopemployee-border {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 40px;
+}
+.title-name{
+  font-size:15px;
+  padding:10px 0;
+  padding-right:10px;
+}
+.card-header-part{
+   padding:7px 0px ;
+}
+.card-header-part h6{
+   color:black;
+   margin-bottom:0px;
+   text-align: center;
+}
+.btn-padding{
+   padding: 4px 11px;
+}
+.p{
+   padding: 0px 25px 11px 0px;
+}
+.table-responsive-custom{
+    display: block;
+    width: 100%;
+}
+.brand-border{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding:55px 30px;
+}
+.brand-entry{
+    padding:50px 0px;
+}
+.text-sm-right{
+    padding-top:30px;
+}
+.brand-entry label{
+    margin-right:40px;
+    font-size:17px;
+}
+.category-border{
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding:55px 30px;
+}
+.category label {
+    margin-top: 7px;
+}
+.category .form-row {
+    margin-top: 10px;
+}
+.category input.form-check-input {
+    margin-top: 13px;
+}
+a.btn-success {
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+.display-inline-css a{
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.purchase-border{
+  border-left: 1px solid rgb(0,0,0,0.15);
+  border-right: 1px solid rgb(0,0,0,0.15);
+}
+.purcha-border{
+  border: 1px solid rgb(0,0,0,0.10);
+}
+.sale-bill table td {
+        border: none;
+  }
+.product-delete a{
+  background: rgb(244, 67, 54);
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.primary{
+  background:  #3f6ad8
+}
+.success{
+  background: #117DF1;
+}
+.danger{
+  background: #ED5347;
+}
+.button button {
+  color: white;
+  padding: 8px 25px;
+  margin-right:10px;
+  font-size:18px;
+  border-radius: 6px;
+  cursor:pointer;
+  transition:all linear 0.2s;
+  border: none;
+}
+  .button button:hover{
+    filter: drop-shadow(3px 5px 3px #9B9B9B);
+}
+.due-bal h5{
+  font-size:23px;
+  font-weight:bold;
+}
+.due-bal span{
+  font-size:28px;
+  color: #0D41C9;
+}
+.total-bal h5{
+  font-size:23px;
+  font-weight:bold;
+}
+.total-bal span{
+  font-size:28px;
+  color: #2f2c2c;
+}
+.no-gutters .badge{
+    padding: 4px 7px;
+}
+.search input{
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #2955C8;
+    position:relative;
+    padding:0 20px;
+}
+.search button {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 24px;
+    top:4px;
+    font-size: 18px;
+    transform: rotate(90deg);
+    color: #2955C8;
+}
+
+ .form_control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  }
+
+
+.product-page label {
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  }
+.product-bill label {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radio{
+  font-size:15px;
+ }
+input[type="radio"] {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.product-detail label{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.product-detail{
+    padding:25px 0px 0px 0px
+}
+
+button.btn.btn-info.btn-padding {
+  margin-top: 43px;
+}
+.col-sm-12.col-md-2.col-xl-2.d-none.d-md-block {
+    cursor: pointer;
+}
+@media (max-width:767px) {
+    .category-border {
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      padding: 10px 30px;
+  }
+}
+
+
+
+
+
+/* ============================================= */
+/* radio button with image  */
+/* ==============================================*/ 
+
+
+.supplier-entry label {
+  margin-right: 0px;
+}
+.section {
+  display: flex;
+  flex-flow: row wrap;
+  cursor: pointer;
+}
+.section > div {
+  flex: 1;
+  padding: 0.5rem;
+}
+input[type="radio"] {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: -27px;
+  position: relative;
+  &: not(: disabled) ~label {
+    cursor: pointer;
+  }
+  &:disabled ~ label {
+    color: hsla(150, 5%, 75%, 1);
+    border-color: hsla(150, 5%, 75%, 1);
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+}
+.label {
+  display: block;
+  background: white;
+  border: 2px solid rgb(113, 160, 247);
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+  position: relative;
+}
+input[type="radio"]:checked + label {
+  background: rgb(134, 178, 243);
+  color: hsla(215, 0%, 100%, 1);
+  box-shadow: 0px 0px 20px hsla(216, 100%, 50%, 0.75);
+  &::after {
+    color: hsla(215, 5%, 25%, 1);
+    font-family: FontAwesome;
+    border: 2px solid hsla(150, 75%, 45%, 1);
+    content: "\f00c";
+    font-size: 24px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0px 2px 5px -2px hsla(0, 0%, 0%, 0.25);
+  }
+}
+input[type="radio"]#control_000:checked + label {
+  background: red;
+  border-color: red;
+}
+p {
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 700px) {
+  .section {
+    flex-direction: column;
+  }
+}
+
+
+
+/* ============================================= */
+/* // radio button with image  */
+/* ==============================================*/ 
+
+
+
+
+
+/* ============================================= */
+/* invoice design  */
+/* ==============================================*/ 
+
+#invoice{
+  padding: 30px;
+}
+
+.invoice {
+  position: relative;
+  background-color: #FFF;
+  min-height: 680px;
+  padding: 15px
+}
+
+.invoice header {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #3989c6
+}
+
+.invoice .company-details {
+  text-align: right
+}
+
+.invoice .company-details .name {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.invoice .contacts {
+  margin-bottom: 20px
+}
+
+.invoice .invoice-to {
+  text-align: left
+}
+
+.invoice .invoice-to .to {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.invoice .invoice-details {
+  text-align: right
+}
+
+.invoice .invoice-details .invoice-id {
+  margin-top: 0;
+  color: #3989c6
+}
+
+.invoice main {
+  padding-bottom: 50px
+}
+
+.invoice main .thanks {
+  margin-top: -100px;
+  font-size: 2em;
+  margin-bottom: 50px
+}
+
+.invoice main .notices {
+  padding-left: 6px;
+  border-left: 6px solid #3989c6
+}
+
+.invoice main .notices .notice {
+  font-size: 1.2em
+}
+
+.invoice table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px
+}
+
+.invoice table td,.invoice table th {
+  padding: 15px;
+  background: #eee;
+  border-bottom: 1px solid #fff
+}
+
+.invoice table th {
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 16px
+}
+
+.invoice table td h3 {
+  margin: 0;
+  font-weight: 400;
+  color: #3989c6;
+  font-size: 1.2em
+}
+
+.invoice table .qty,.invoice table .total,.invoice table .unit {
+  text-align: right;
+  font-size: 1.2em
+}
+
+.invoice table .no {
+  color: #fff;
+  font-size: 1.6em;
+  background: #3989c6
+}
+
+.invoice table .unit {
+  background: #ddd
+}
+
+.invoice table .total {
+  background: #3989c6;
+  color: #fff
+}
+
+.invoice table tbody tr:last-child td {
+  border: none
+}
+
+.invoice table tfoot td {
+  background: 0 0;
+  border-bottom: none;
+  white-space: nowrap;
+  text-align: right;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-top: 1px solid #aaa
+}
+
+.invoice table tfoot tr:first-child td {
+  border-top: none
+}
+
+.invoice table tfoot tr:last-child td {
+  color: #3989c6;
+  font-size: 1.4em;
+  border-top: 1px solid #3989c6
+}
+
+.invoice table tfoot tr td:first-child {
+  border: none
+}
+
+.invoice footer {
+  width: 100%;
+  text-align: center;
+  color: #777;
+  border-top: 1px solid #aaa;
+  padding: 8px 0
+}
+
+@media print {
+
+ 
+  * {
+        -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+        color-adjust: exact !important;                 /*Firefox*/
+    } 
+
+    body{
+      width: 25cm;
+      height: 29.7cm;
+      /* margin: 30mm 45mm 30mm 45mm;  */
+      /* change the margins as you want them to be. */
+ } 
+
+
+  .invoice {
+      font-size: 11px!important;
+      overflow: hidden!important
+  }
+
+  /* .invoice footer {
+      position: absolute;
+      bottom: 10px;
+      page-break-after: always
+  }
+
+  .invoice>div:last-child {
+      page-break-before: always
+  } */
+}
+
+
+/* ============================================= */
+/* // invoice design  */
+/* ==============================================*/ 
